@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+.fixed-wrap{
+  height: 100%;
+}
+
+
+.fixed{
+  height: 100%; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.offset: before{
+  display: block;
+  content="";
+  height: 4rem;
+  margin-top: -4rem;
+}
+/* Navigation */
+
+.navbar{
+  text-transform:uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: 0.1 rem;
+  background-color: rgba(0,0,0,0.6)!important;
+}
+
+.navbar-brand{
+  height : 4.5rem;
+  padding-top: .1rem;
+}
+
+.navbar-nav li{
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top : 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active
+{
+  color: #23B7E8;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: aquamarine;
+}
+
+
+/* Landing Page */
+.home-inner{
+  background-image: url("img/IMG_20200102_204356_032.jpg");
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  padding-right: 50%;
+  top: 50%;
+  z-index: 1;
+  color: black;
+  letter-spacing: 0.1 rem;
+}
+
+.caption h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.8em;
+  font-weight: 500;
+  /* letter-spacing: .3rem; */
+  padding-bottom: 1rem;
+}
+
+.caption h3{
+  font-size: 1.5rem;
+  padding-bottom: 1.6rem;
+  padding-left: 1.5rem;
+  letter-spacing: .2rem;
+}
+
+.btn-lg{
+  border-width: medium;
+  border-radius: 2%;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  color: black;
+  border-color: black;
+}
+
+.techstack{
+  list-style: none;
+}
+
+
+/* Aboutme */
+#aboutme{
+  padding-top: 4rem;
+}
+.narrow{
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 1rem;
+}
+
+.narrow h1{
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.aboutme{
+  font-size: 1.3rem;
+}
+
+/* .aboutme img {
+  width: 100%;
+  /* height: 100%; */
+  /* background-size: contain; */
+  /* display: grid;
+  grid-template-rows: 50px 300px; */
+/* } */ */
+
+/* Skills */
+
+.jumbotron {
+  padding: 2rem 0 0 0;
+  border-radius: 0;
+  border-bottom: 0!important;
+  margin-bottom: 0!important;
+}
+
+.heading{
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+  margin-top: 1rem;
+  color: white;
+  text-shadow: 3px 3px 5px #000000;
+}
+
+.heading-underline{
+  width: 4rem;
+  height: .2rem;
+  background-color: #23B7E8 ;
+  margin: 0 auto 2rem;
+}
+.subheading{
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 1rem 0 0.2rem 3.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.feature svg.svg-inline--fa{
+  color: #23B7E8;
+}
+
+
+#web{
+  padding-right: 4rem;
+}
+
+.feature h3{
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+/* Resources */
+
+.bg1{
+  background-image: url("img/sven-lenaerts-01.jpg");
+  z-index: -1;
+}
+
+.dark{
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  padding: 7rem 2rem;
+}
+
+.fixed-background h3{
+  margin-bottom: 2rem;
+}
+
+.fixed-background p{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Experience */
+
+
+
+.experience img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+.experience h3{
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+
+
+
+.bg2{
+  background-image: url("img/0.jpeg");
+  z-index: -1;
+}
+
+.shade{
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  padding: 5rem 2rem;
+  border-bottom: 2rem;
+}
+
+/* Contact */
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 0 0 2rem;
+}
+footer a{
+  color: white;
+  padding: 0.5rem .5rem;
+}
+footer h2{
+  padding: 1rem 0 1rem;
+}
+footer svg.svg-inline--fa:hover{
+  color: #23B7E8!important;
+}
+
+hr.socket{
+  width: 100%;
+  border-top: .2rem solid #666b71;
+}
+
+
+/* 
+About me */
+
+.img-hover1 {
+  background: url("img/IMG_20191026_205404_626.jpg") no-repeat;
+  vertical-align: middle;
+  /* border-radius: 20%; */
+  width: 100%;
+  height: 100%;
+  background-size:contain;
+  border: black;
+  
+  display: grid;
+  grid-template-rows: 150px 150px;
+
+  transition: 1s ease;
+}
+.img-hover1:hover {
+  background: url("img/IMG_20200105_221051_005.jpg") no-repeat;
+  /* width: 333%;
+  height: 333%; */
+  background-size:contain;
+  
+}
+
+.img-hover2 {
+  background: url("img/IMG_20200118_210508_560.jpg") no-repeat;
+  vertical-align: middle;
+  /* border-radius: 20%; */
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  border: black;
+  display: grid;
+  grid-template-rows: 100px 150px;
+  transition: 1s ease;
+}
+.img-hover2:hover {
+  background: url("img/IMG_20191006_080121_119.jpg") no-repeat;
+  /* width: 333%;
+  height: 333%; */
+  background-size:contain;
+  
+}
+
+.jumbotron {
+  padding: 2rem 0 0 0;
+  border-radius: 0;
+  border-bottom: 0!important;
+  margin-bottom: 0!important;
+}
+
+#experience h1 {
+  margin-top: 7rem!important;
+  border-top: 5rem;
+}
+
+#skills h1 {
+  margin-top: 3rem!important;
+  border-top: 5rem;
+}
+
+#aboutme h1 {
+  margin-top: 3rem!important;
+  border-top: 5rem;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 767px){
+  .caption{
+    top: 12%;
+  }
+  .caption h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3em;
+    /* font-weight: 500; */
+    /* letter-spacing: .3rem; */
+    padding-bottom: .5rem;
+    
+  }
+  
+  .caption h3{
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 1rem;
+    /* letter-spacing: .2rem; */
+   
+  }
+  
+  .btn-lg{
+    /* border-width: medium;
+    border-radius: 2%; */
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    color: black;
+    border-color: black;
+  }
+  .experience{
+    text-align: center;
+  }
+  .experience img {
+    max-width: 50%;
+    border-radius: 50%;
+  }
+
+  .img-hover1 {
+    background: url("img/IMG_20191026_205404_626.jpg") no-repeat;
+    /* border-radius: 20%; */
+    width: 100%;
+    height: 100%;
+    background-size:contain;
+    border: black;
+    
+    display: grid;
+    align-items: center;
+    grid-template-rows: 150px 150px;
+  
+    transition: 1s ease;
+  }
+  .img-hover1:hover {
+    background: url("img/IMG_20200105_221051_005.jpg") no-repeat;
+    /* width: 333%;
+    height: 333%; */
+    background-size:contain;
+    
+  }
+
+}
+
+.narrow{
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  border-bottom: 0rem;
+  border-top: 0rem;
+}
+
+#skills h1{
+  color: #505962;
+  text-shadow: none;
+} 
+
+.experience a:hover {
+  color: #23B7E8;
+  background-color: #23B7E8;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
