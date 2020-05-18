@@ -342,25 +342,27 @@ About me */
   background-color: #23B7E8;
 }
 
+#pg{
+ padding-right: 2rem;
+}
+
 
 /* Media Queries */
 
-@media (max-width: 767px){
+@media (max-width: 769px){
   .caption{
     top: 12%;
   }
   .caption h1{
     font-family: 'Dancing Script', cursive;
-    font-size: 2.3em;
-    /* font-weight: 500; */
-    /* letter-spacing: .3rem; */
+    /* font-size: 3rem!important; */
     padding-bottom: .5rem;
     
   }
   
   .caption h3{
-    font-size: 1.2rem;
-    padding-bottom: 1.2rem;
+    /* font-size: 2rem!important; */
+    padding-bottom: 1.5rem;
     padding-left: 1rem;
     /* letter-spacing: .2rem; */
    
@@ -400,11 +402,51 @@ About me */
     background: url("img/IMG_20200105_221051_005.jpg") no-repeat;
     /* width: 333%;
     height: 333%; */
-    background-size:contain;
+
+    .caption h3 {
+      font-size: 1rem;
+    }
+    .caption h1{
+      font-size: 1.7rem;
+      padding-top: 1rem;
+      padding-bottom: 0.5rem;
+    }
+
     
-} */
+} 
 
+@media (max-width: 600px) { 
+  .caption h3 {
+    font-size: 1.2rem;
+  }
+  .caption h1 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
 
+  @media (max-width: 415px) { 
+    .caption h3 {
+      font-size: 0.9rem;
+    }
+    .caption h1 {
+      font-size: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  @media (max-width: 320px) { 
+    .caption h3 {
+      font-size: 0.7rem;
+    }
+    .caption h1 {
+      font-size: 1rem;
+      padding-top: 1.2rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+ 
 
 /*============ BOOTSTRAP BREAK POINTS:
 
