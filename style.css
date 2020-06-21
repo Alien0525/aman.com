@@ -261,26 +261,19 @@ hr.socket{
 
 /* 
 About me */
-
+/* 
 .img-hover1 {
-  background: url("img/IMG_20191026_205404_626.jpg") no-repeat;
-  vertical-align: middle;
+  /* background: url("img/IMG_20191026_205404_626.jpg") no-repeat;
   /* border-radius: 20%; */
-  width: 100%;
+  /* max-width: 100%;
   height: 100%;
-  background-size:contain;
   border: black;
-  
-  display: grid;
-  grid-template-rows: 150px 150px;
-
-  transition: 1s ease;
-}
+  transition: 1s ease; */
+} */ */
 /* .img-hover1:hover {
   background: url("img/IMG_20200105_221051_005.jpg") no-repeat;
   /* width: 333%;
   height: 333%; */
-  background-size:contain;
   
 } */
 
